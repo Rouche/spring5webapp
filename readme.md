@@ -1,10 +1,10 @@
 
-##H2 console:
+## H2 console:
 
     http://localhost:8080/h2-console/
     jdbc:h2:mem:testdb
     
-##GitHub reminders
+## GitHub reminders
 
 [What is GitHub](https://www.youtube.com/watch?v=HwrPhOp6-aM)
 
