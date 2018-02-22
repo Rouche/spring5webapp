@@ -23,6 +23,11 @@ public class Author {
     public Author() {
     }
 
+    /**
+     *
+     * @param firstName first name
+     * @param lastName last name
+     */
     public Author(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;

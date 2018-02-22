@@ -8,4 +8,4 @@
 
 [What is GitHub](https://www.youtube.com/watch?v=HwrPhOp6-aM)
 
-[GitHub and Git Foundations](https://www.youtube.com/watch?v=w3jLJU7DT5E)
+[GitHub + Git Foundations](https://www.youtube.com/watch?v=w3jLJU7DT5E)

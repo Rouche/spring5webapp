@@ -25,6 +25,12 @@ public class Book {
     public Book() {
     }
 
+    /**
+     *
+     * @param title title
+     * @param isbn isbn
+     * @param publisher publisher
+     */
     public Book(String title, String isbn, String publisher) {
         this.title = title;
         this.isbn = isbn;
