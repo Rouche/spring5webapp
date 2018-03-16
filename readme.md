@@ -27,3 +27,8 @@ https://stackoverflow.com/questions/31211842/any-way-or-shortcut-to-auto-import-
 - Prevent opening last project:
 
     Settings -> Appearance & Behaviour -> System Settings -> Reopen last project on startup
+
+- Add multiple project
+
+    In Maven Project view click +
+    
