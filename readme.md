@@ -48,3 +48,11 @@ https://stackoverflow.com/questions/31211842/any-way-or-shortcut-to-auto-import-
 - Show all shortcuts
 
     Ctrl + J
+
+- Expand everything by default
+
+    In the preferences (ctrl+alt+s on my machine)  
+    Editor -> General -> Code Folding.  
+    In there you can choose what's folded by default. In your case, you'll probably want to remove all the defaults.
+    https://stackoverflow.com/questions/25083679/intellij-keeps-folding-my-code-by-default
+
