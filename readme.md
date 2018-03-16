@@ -30,5 +30,5 @@ https://stackoverflow.com/questions/31211842/any-way-or-shortcut-to-auto-import-
 
 - Add multiple project
 
-    In Maven Project view click +
-    
+    In Maven Project view click + and select parent `pom.xml`
+    https://stackoverflow.com/questions/8774024/intellij-working-on-multiple-projects
