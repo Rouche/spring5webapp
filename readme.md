@@ -48,6 +48,7 @@ https://stackoverflow.com/questions/31211842/any-way-or-shortcut-to-auto-import-
 - Show all shortcuts
 
     Ctrl + J
+    https://www.jetbrains.com/help/idea/mastering-intellij-idea-keyboard-shortcuts.html
 
 - Expand everything (method body) by default
 
