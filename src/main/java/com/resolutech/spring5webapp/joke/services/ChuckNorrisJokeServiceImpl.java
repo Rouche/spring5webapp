@@ -1,4 +1,4 @@
-package com.resolutech.spring5webapp.services;
+package com.resolutech.spring5webapp.joke.services;
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.springframework.stereotype.Service;
@@ -8,8 +8,8 @@ public class ChuckNorrisJokeServiceImpl implements ChuckNorrisJokeService {
 
     private final ChuckNorrisQuotes chuckNorrisQuotes;
 
-    public ChuckNorrisJokeServiceImpl() {
-        this.chuckNorrisQuotes = new ChuckNorrisQuotes();
+    public ChuckNorrisJokeServiceImpl(ChuckNorrisQuotes chuckNorrisQuotes) {
+        this.chuckNorrisQuotes = chuckNorrisQuotes;
     }
 
     @Override

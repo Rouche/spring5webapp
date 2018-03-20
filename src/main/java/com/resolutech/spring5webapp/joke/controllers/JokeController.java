@@ -1,6 +1,6 @@
 package com.resolutech.spring5webapp.joke.controllers;
 
-import com.resolutech.spring5webapp.services.ChuckNorrisJokeService;
+import com.resolutech.spring5webapp.joke.services.ChuckNorrisJokeService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
