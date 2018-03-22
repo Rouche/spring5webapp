@@ -1,6 +1,12 @@
 
 ## Spring5 notes
 
+### project covered sections
+
+- Section 4 - Jokes
+
+### notes
+
 - What makes spring-boot start and keep server running  
     spring-boot-starter-web dependency
     https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#using-boot-starter

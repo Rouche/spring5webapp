@@ -60,3 +60,10 @@ https://stackoverflow.com/questions/31211842/any-way-or-shortcut-to-auto-import-
 - Git color
 
     File -> Settings -> Version Control -> File Status Color (changes #B8FF25)
+
+- Reverse engineering
+    https://intellij-support.jetbrains.com/hc/en-us/community/posts/206241309-Reverse-Engineering-in-Intellij-IDEA
+    
+- Search everywhere
+    Double pres SHIFT
+    https://www.jetbrains.com/help/idea/searching-everywhere.html
