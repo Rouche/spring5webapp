@@ -67,3 +67,6 @@ https://stackoverflow.com/questions/31211842/any-way-or-shortcut-to-auto-import-
 - Search everywhere
     Double pres SHIFT
     https://www.jetbrains.com/help/idea/searching-everywhere.html
+    
+- VCS operations popup  
+    ``ALT + ` `` (back quote)
