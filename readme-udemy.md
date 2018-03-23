@@ -17,3 +17,6 @@
     `mvn spring-boot:help -Ddetail=true`
     
     `mvn spring-boot:run -Drun.arguments=--debug`
+    
+- JHipster  
+    https://www.jhipster.tech/
