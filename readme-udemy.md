@@ -20,3 +20,5 @@
     
 - JHipster  
     https://www.jhipster.tech/
+    
+- Always disable DDL in production

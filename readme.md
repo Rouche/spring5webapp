@@ -32,6 +32,10 @@
 File -> Settings > Editor > General > Auto Import
 https://stackoverflow.com/questions/31211842/any-way-or-shortcut-to-auto-import-the-classes-in-intellij-idea-like-in-eclips
 
+- Organize imports
+
+    `CTRL+ ALT + O`
+    
 - Prevent opening last project :
 
     Settings -> Appearance & Behaviour -> System Settings -> Reopen last project on startup
