@@ -23,6 +23,12 @@
     - File Encoding
     - Line Separators
     - Git branch
+
+- Default file encoding :
+    
+    File -> Settings... -> Editors -> File Encodings
+    
+    Verify Global, Project and .properties
     
 - Reset IntelliJ :
 
