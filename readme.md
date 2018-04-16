@@ -48,6 +48,10 @@ https://stackoverflow.com/questions/31211842/any-way-or-shortcut-to-auto-import-
 
     `CTRL + ALT + O`
     
+- Find in all files
+
+    `CTRL + SHIFT + F`
+
 - Prevent opening last project :
 
     Settings -> Appearance & Behaviour -> System Settings -> Reopen last project on startup
