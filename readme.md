@@ -18,6 +18,12 @@
 
 ## IntelliJ tricks
 
+- Usefull info in Status bar :
+
+    - File Encoding
+    - Line Separators
+    - Git branch
+    
 - Reset IntelliJ :
 
     File -> Invalidate Caches / Restart
@@ -34,7 +40,7 @@ https://stackoverflow.com/questions/31211842/any-way-or-shortcut-to-auto-import-
 
 - Organize imports
 
-    `CTRL+ ALT + O`
+    `CTRL + ALT + O`
     
 - Prevent opening last project :
 
@@ -94,6 +100,10 @@ https://stackoverflow.com/questions/31211842/any-way-or-shortcut-to-auto-import-
       Press: `ctrl + shift + A`  
       Type: Registry  
       Find the key `compiler.automake.allow.when.app.running` and enable it or click the checkbox next to it
+    - File -> Settings... -> Build, Execution, Deployment -> Compiler -> Annotations Processor -> Enable Annotation Processing
 
-- Plugins
+- Plugins  
     File -> Settings... -> Plugins -> Browse repositories...
+    
+    - Lombok
+    - Axis TCP Monitor

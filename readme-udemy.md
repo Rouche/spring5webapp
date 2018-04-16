@@ -21,4 +21,4 @@
 - JHipster  
     https://www.jhipster.tech/
     
-- Always disable DDL in production
+- Database config : Always disable DDL in production
