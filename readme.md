@@ -107,3 +107,9 @@ https://stackoverflow.com/questions/31211842/any-way-or-shortcut-to-auto-import-
     
     - Lombok
     - Axis TCP Monitor
+    
+- Cygwin as shell for Terminal
+    
+    File -> Settings... -> Tools -> Terminal -> Shell path.
+    
+    ```C:\cygwin64\bin\bash.exe```
