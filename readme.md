@@ -123,3 +123,8 @@ https://stackoverflow.com/questions/31211842/any-way-or-shortcut-to-auto-import-
     File -> Settings... -> Tools -> Terminal -> Shell path.
     
     ```C:\cygwin64\bin\bash.exe```
+    
+    Go in Environment Variables  
+    Add a new environment variable, called CYGWIN_HOME and set its value to C:\cygwin  
+    Edit the PATH environment variable and add C:\cygwin\bin to it
+    
