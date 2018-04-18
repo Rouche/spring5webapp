@@ -125,6 +125,9 @@ https://stackoverflow.com/questions/31211842/any-way-or-shortcut-to-auto-import-
     ```C:\cygwin64\bin\bash.exe```
     
     Go in Environment Variables  
-    Add a new environment variable, called CYGWIN_HOME and set its value to C:\cygwin  
-    Edit the PATH environment variable and add C:\cygwin\bin to it
+    Add a new environment variable, CYGWIN_HOME value C:\cygwin64  
+    Edit the PATH environment variable and add C:\cygwin64\bin
+    
+    Fonts: Open a normal Cygwin terminal.  
+    Right click header -> Options... -> Text set the font size there, it will affect IntelliJ
     
