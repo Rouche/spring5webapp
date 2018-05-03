@@ -117,6 +117,7 @@ https://stackoverflow.com/questions/31211842/any-way-or-shortcut-to-auto-import-
     
     - Lombok
     - Axis TCP Monitor
+    - Kubernetes and Openshift Resource support
     
 - Cygwin as shell for Terminal
     
