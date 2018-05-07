@@ -38,3 +38,9 @@ If you now want git to also normalize the files in your working directory, run t
 git ls-files -z | xargs -0 rm
 git checkout .
 ```
+
+## Add Git support to module
+
+When imported as Maven project, Git support wont be automatic.
+
+Settings -> Version Control -> Select Unregistered root -> Click + (Upper right)
