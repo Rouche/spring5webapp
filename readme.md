@@ -132,3 +132,40 @@ https://stackoverflow.com/questions/31211842/any-way-or-shortcut-to-auto-import-
     Fonts: Open a normal Cygwin terminal.  
     Right click header -> Options... -> Text set the font size there, it will affect IntelliJ
     
+# Deploying on Tomcat 
+##### Prerequisites for a Spring boot application
+- pom.xml -> ```<packaging>war</packaging>```
+- Dependency
+    ```
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-tomcat</artifactId>
+    </dependency>
+    ```
+- Application class
+    ```
+    @SpringBootApplication
+    public class RecipeApplication extends SpringBootServletInitializer {
+        @Override
+        protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+            return application.sources(RecipeApplication.class);
+        }
+    }
+    
+   ```
+##### Deploying
+- Clean everything
+    - delete target directory
+- Build -> Build project
+- File -> Project Structure... -> Artifact -> +
+    - Web Application: Exploded
+    - From Module
+![structure](src/main/resources/static/images/structure.png)
+    - Adjust output directory to be in correct module
+    - Project Structure... -> Modules -> Web resource directories -> +
+        - select the module root.
+![structure](src/main/resources/static/images/module.png)        
+- Build -> Build project
+- Build -> Build Artifact... -> Select Artifact -> Build
+- Application Servers -> Tomcat 8.x -> Artifacts -> Select module -> Add
+- Start!
