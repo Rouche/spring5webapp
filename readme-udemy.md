@@ -22,3 +22,6 @@
     https://www.jhipster.tech/
     
 - Database config : Always disable DDL in production
+
+- Postman
+	https://www.getpostman.com/
