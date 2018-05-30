@@ -119,6 +119,13 @@ https://stackoverflow.com/questions/31211842/any-way-or-shortcut-to-auto-import-
     - Axis TCP Monitor
     - Kubernetes and Openshift Resource support
     
+- MapStruct config  
+    File -> Settings... -> Build, Execution, Deployment -> Compiler -> Annotations Processor  
+    Select the module, add Annotation Processor options : `mapstruct.defaultComponentModel`
+    ![structure](src/main/resources/static/images/mapstruct.png)
+    Or: `@Mapper(componentModel = "spring")`
+    http://mapstruct.org/documentation/stable/reference/html/#using-dependency-injection
+
 - Cygwin as shell for Terminal
     
     File -> Settings... -> Tools -> Terminal -> Shell path.
