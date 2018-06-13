@@ -56,7 +56,7 @@ https://stackoverflow.com/questions/31211842/any-way-or-shortcut-to-auto-import-
 
     Settings -> Appearance & Behaviour -> System Settings -> Reopen last project on startup
 
-- Multiple project support :
+- Multiple module support :
 
     In Maven Project view click + and select parent `pom.xml`
     https://stackoverflow.com/questions/8774024/intellij-working-on-multiple-projects
@@ -65,6 +65,11 @@ https://stackoverflow.com/questions/31211842/any-way-or-shortcut-to-auto-import-
     Project -> New -> Module (Will add the module in same project window)  
     Module VS Project
     https://intellij-support.jetbrains.com/hc/en-us/community/posts/206887325-Difference-between-project-and-module
+    
+- Maven multi module  
+    After importing maven root pom. Maven child projects will be grayed out.  
+    `Project -> Right Click -> Unignore projects`
+    https://stackoverflow.com/questions/43004560/why-are-some-maven-projects-in-intellij-greyed-out
     
 - New project with built-in spring :
 
